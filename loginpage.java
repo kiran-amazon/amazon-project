@@ -41,7 +41,7 @@ public class LoginDemo extends JFrame implements ActionListener {
    public void actionPerformed(ActionEvent ae) {
       String userName = userName_text.getText();
       String password = password_text.getText();
-      if (userName.trim().equals("admin") && password.trim().equals("admin")) {
+      if (userName.trim().equals("kiran") && password.trim().equals("9066")) {
          message.setText(" Hello " + userName + "");
       } else {
          message.setText(" Invalid user.. ");
